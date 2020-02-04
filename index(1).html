@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>About LINUX</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript">
+function view_all(){
+    document.getElementById('al').style.display='block';
+    document.getElementById('tl').style.display='block';
+    document.getElementById('ol').style.display='block';
+}
+function change_al(){
+    document.getElementById('al').style.display='block';
+    document.getElementById('tl').style.display='none';
+    document.getElementById('ol').style.display='none';
+}
+function change_ol(){
+    document.getElementById('ol').style.display='block';
+    document.getElementById('tl').style.display='none';
+    document.getElementById('al').style.display='none';
+}
+function change_tl(){
+    document.getElementById('tl').style.display='block';
+    document.getElementById('al').style.display='none';
+    document.getElementById('ol').style.display='none';
+}
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+nav {
+  width: 30%;
+  background: #ccc;
+  float: left;
+  border: 3px solid red;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+h3{
+    font-size: 20px;
+    padding: 5px 3px;
+}
+li {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px 3px;
+  text-align: center;
+  font-size: 16px;
+}
+a{
+text-decoration: none;
+font-size: 15px;
+padding: 15px 32px;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: white;
+  font-size:20px;
+  background-color:black;
+}
+a:active {
+  background-color: blue;
+  font-style:bold;
+}
+article {
+  float:right;
+  border: 3px solid blue;
+  padding:5px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+header {
+    border: 5px solid black;
+    background-color:#fff000;
+    text-align: center;
+}
+footer {
+    padding: 5px;
+    color: white;
+    border: 5px solid black;
+    background: black;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+section:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+section{
+    border: 3px solid grey;
+    padding: 5px;
+    background: grey;
+}
+#al{
+    display:block;
+}
+#ol{
+    display:none;
+}
+#tl{
+    display:none;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="style/avatar.css">
+</head>
+<body>
+    <header>
+        <img src="src/images/linux_lg.png" width="200" height="100" alt="LINUX LOGO" >
+        <h1>My Techincal Topic: LINUX</h1>
+    </header>
+    
+    <section>
+        <nav>
+            <ul>
+            <h3>Contents</h3>
+              <li><a href="#al" onclick="change_al()">What is Linux?</a></li>
+              <li><a href="#ol" onclick="change_ol()">Origin of Linux</a></li>
+              <li><a href="#tl" onclick="change_tl()">Types of Linux</a></li>
+              <li><a onclick="view_all()">View all at once</a></li>
+            </ul>
+        </nav>
+        <article id="al">
+            <h2>What is Linux?</h2>
+        </article>
+        <article id="ol">
+            <h2>Origin of Linux</h2>
+        </article>
+        <article id="tl">
+            <h2>Types of Linux</h2>
+        </article>
+    </section>
+    
+    
+    <footer>
+        <h2>About the Website</h2>
+        <!----<img src="src/images/avatar.png" alt="Avatar" class="avatar" width="50" height="50"> -->
+        <p>Created By: VIKNESH.B.S
+        <br>Class: IV CSE B
+        <br>Purpose: KM Assigment 2
+        </p>
+    </footer>
+</body>
+</html>
