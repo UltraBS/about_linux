@@ -84,6 +84,9 @@ section{
 #ol{
     display:none;
 }
+span{
+font-weight: bold;
+}
 #tl{
     display:none;
 }
