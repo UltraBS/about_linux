@@ -5,7 +5,7 @@ nav {
   width: 30%;
   background: #ccc;
   float: left;
-  border: 3px solid red;
+  border: 3px solid white;
   padding: 20px;
 }
 nav ul {
@@ -74,7 +74,7 @@ section:after{
   clear: both;
 }
 section{
-    border: 3px solid grey;
+    border: 3px solid white;
     padding: 5px;
     background: grey;
 }
