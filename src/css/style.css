@@ -6,12 +6,11 @@ h3{
     padding: 5px 3px;
 }
 hr {
-width: 300px;
+width: auto;
 margin-left: auto;
 margin-right: auto;
-height: 100px;
-background-color:black;
-opcaity: 0.5;
+height: 1px;
+background-color:white;
 }
 .center_responsive {
   display: block;
@@ -19,9 +18,6 @@ opcaity: 0.5;
   margin-right: auto;
   max-width: 100%;
   height: auto;
-}
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 hr {
 margin-left: auto;
@@ -83,7 +79,7 @@ li a:hover:not(.active) {
 
 article {
   padding:5px;
-  font-align:center;
+  margin: 25px 25px 25px 25px;
   background-color: #f1f1f1;
 }
 header {
