@@ -11,25 +11,18 @@ font-size: 15px;
 padding: 15px 32px;
 }
 a:link {
-  color: red;
-}
-a:visited {
   color: blue;
 }
-a:hover {
-  color: white;
-  font-size:20px;
-  background-color:black;
+a:visited {
+  color: red;
 }
-a:active {
-  background-color: blue;
-  font-style:bold;
+a:hover {
+  font-size:20px;
 }
 article {
-  float:right;
-  border: 3px solid blue;
+  float:center;
   padding:5px;
-  width: 70%;
+  font-align:center;
   background-color: #f1f1f1;
 }
 header {
