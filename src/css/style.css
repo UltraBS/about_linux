@@ -24,11 +24,11 @@ img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 hr {
-width: 300px;
 margin-left: auto;
 margin-right: auto;
-height: 100px;
-background-color:#666;
+width:auto;
+height:5px;
+background-color:white;
 opcaity: 0.5;
 }
 a{
@@ -47,6 +47,9 @@ a:hover {
 }
 ul {
   list-style-type: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
